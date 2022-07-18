@@ -14,9 +14,9 @@ After each guess, the color of the tiles (letters) will change to show how close
 
 For this kata, instead of playing the game like an honest person, you are to write a cheat-bot that filters down the set of words (wordlist) using a list of guesses and their respective feedbacks. For example, if you were provided this wordlist and feedbacks:
 
-{"SHEEP", "KINKY", "SWEET", "MAUVE", "FLUNG", "SKEET", ... }  # wordlist
+["SHEEP", "KINKY", "SWEET", "MAUVE", "FLUNG", "SKEET", ... ]  # wordlist
 
-[("SPOIL", "G----"), ("STEAD", "GYG--"), ("SEETH", "GYGY-")]  # guesses
+[["SPOIL", "G----"], ["STEAD", "GYG--"], ["SEETH", "GYGY-"]]  # guesses
 
 Your output should be the set of remaining words, each satisfying all the hints in guesses:
 
